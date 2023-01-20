@@ -1,0 +1,36 @@
+// Optional task
+
+read four numbers from the user and save it in a variable of type list
+create a variable called smallest
+create a variable called largest
+create a list of size 4 called sorted_list
+
+// Find the largest number in the list
+for every number in list
+ if the number is greater than largest
+    set largest to number
+
+// Find the smallest number in the list
+for every number in list
+  if the number is less than smallest
+    set smallest to number
+
+// Remove the smallest and largest number from list, resulting in list with size 2
+for every number in list
+    if number equals largest
+        remove number from list
+    if number equals smallest
+        remove number from list
+
+// Set sorted numbers in sorted_list
+if first number in list is greater than second number in list
+    set the third index of sorted_list to the value of first number
+    set the second index of sorted_list to the value of second number
+else
+    set the third index of sorted_list to the value of second number
+    set the second index of sorted_list to the value of first number
+
+set the first index of sorted_list to the value of smallest
+set the last index of sorted_list to the value of largest
+
+print sorted_list

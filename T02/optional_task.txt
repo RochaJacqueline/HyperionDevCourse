@@ -1,0 +1,27 @@
+// Optional task: Fibonacci sequence 
+
+request the user to imput a number
+save the number in a variable called n
+create a variable of type list called sequence
+assign to sequence the values 0 and 1 in this order
+
+if n equals 0
+    print "There are no numbers in a sequence of 0 elements"
+
+if n equals 1
+    print the first index of sequence
+
+if n equals 2
+    print sequence
+
+if n is greater than or equal to 3
+
+    for n numbers in the range of 2 to n
+
+        index n of sequence is equal to index n-1 of sequence plus index n-2 of sequence
+
+    print sequence 
+
+
+
+

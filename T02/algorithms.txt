@@ -1,0 +1,21 @@
+// First algorithm
+
+request the user to imput their name
+save the name in a variable called first_name
+
+print first_name and the phrase "Hello, World"
+
+
+// Second algorithm
+
+request the user to imput their age
+save the age in a variable called age
+
+if age is greater than or equal to 18
+    print "You're old enough"
+
+if age is less than 16
+    print "You're just too young"
+
+else
+    print "Almost there"

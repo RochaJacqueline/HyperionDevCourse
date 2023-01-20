@@ -1,0 +1,52 @@
+// First algorithm
+
+assign the value zero to a variable called largest
+request a number from the user
+
+while number is not zero
+    if number is greater than largest
+        set largest to number
+    
+    read number from the user
+
+print largest
+
+
+// Second algorithm
+
+read integers from the user and save it in a variable of type list
+
+for every number in the list 
+
+    add the number to a variable called sum 
+
+return the variable sum divided by the length of list
+
+
+// Third algorithm
+
+get the grocery list
+
+for every item in the list
+    if item in the list has already been bought
+
+        remove item from the list
+
+sort the list in alphabetical order
+print the list
+
+
+// Fourth algorithm
+
+read X
+read Y
+
+define a variable S and assign it the sum of X plus Y
+
+define a variable A and assign it the value of S divided by 2
+
+define a variable P and assign it the value of X multiplied by Y
+
+write S
+write A
+write P

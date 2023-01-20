@@ -1,0 +1,27 @@
+Number of registered users:	4
+Number of generated tasks:	8
+
+─────────────────────────────────────────────────────────────────────────────────
+User:							admin
+Number of tasks assigned:		1
+Total tasks percentage:			12.50%
+Complete tasks percentage:		100.00%
+Incomplete tasks percentage:	0.00%
+Overdue percentage:				0.00%
+─────────────────────────────────────────────────────────────────────────────────
+User:							Lily
+Number of tasks assigned:		3
+Total tasks percentage:			37.50%
+Complete tasks percentage:		66.67%
+Incomplete tasks percentage:	33.33%
+Overdue percentage:				33.33%
+─────────────────────────────────────────────────────────────────────────────────
+User:							test
+Number of tasks assigned:		4
+Total tasks percentage:			50.00%
+Complete tasks percentage:		0.00%
+Incomplete tasks percentage:	100.00%
+Overdue percentage:				100.00%
+─────────────────────────────────────────────────────────────────────────────────
+User:							etest2
+Number of tasks assigned:		0
