@@ -23,5 +23,5 @@ Complete tasks percentage:		0.00%
 Incomplete tasks percentage:	100.00%
 Overdue percentage:				100.00%
 ─────────────────────────────────────────────────────────────────────────────────
-User:							etest2
+User:							test2
 Number of tasks assigned:		0

@@ -6,7 +6,7 @@ users_file = open('user.txt', 'r+')
 users_info = {}
 is_admin = False
 
-#====Classes Section=====
+#====Classes Section========
 class Task():
     def __init__(self, id, username, task_name, description, date_assigned, due_date, completed):
         self.id = id
@@ -52,7 +52,7 @@ class Task():
         due_date = datetime.strptime(self.due_date, '%d %b %Y')
         return now > due_date
 
-#====Functions Section=====
+#====Functions Section=========
 def reg_user():
     while True:
         name_input = input("Please enter an username: ")
@@ -125,7 +125,7 @@ def select_task_menu(tasks):
             return
 
         if (task_id not in tasks):
-            print("Task doesn't exist")
+            print("Task does not exist")
             continue
 
         if (tasks[task_id].is_completed()):
@@ -253,7 +253,7 @@ Number of tasks assigned:\t\t{total_assigned}
     
 #====Login Section=========
 
-# Saves all usernames and passwords from user.txt, in users_info as a dictionary
+# Saves all usernames and passwords from user.txt, in users_info as a list
 for line in users_file:
     login, password = line.split(', ')
     users_info[login] = password.strip("\n")
@@ -271,7 +271,7 @@ while True:
         break
 
 while True:
-    #presenting the menu to the user and making sure that the user input is coneverted to lower case.
+    # Presenting the menu to the user and making sure that the user input is coneverted to lower case.
     if is_admin:
         menu = input('''Select one of the following Options below:
     r - Registering a user
@@ -307,7 +307,7 @@ while True:
         view_mine()
 
     elif menu == 'ds' and is_admin:
-        '''In this block you will put code that will display statistics, i.e. the total number of tasks and total number of users'''
+        
         tasks_file = open('tasks.txt', 'r')
         
         tasks = len(tasks_file.readlines())
@@ -330,4 +330,4 @@ while True:
         exit()
 
     else:
-        print("You have made a wrong choice, Please Try again")
+        print("You have made a wrong choice. Please Try again")
